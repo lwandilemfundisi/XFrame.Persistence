@@ -4,7 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
 	<PackageId>XFrame.Persistence</PackageId>
-	<Version>7.0.0</Version>
+	<Version>7.0.1</Version>
 	<Authors>Lwandile Mfundisi</Authors>
 	<Description>XFrame.Persistence abstraction of an orm, Implementation depends on you (example Entity Framework or NHibernate)</Description>
 	<IsPackable>true</IsPackable>
@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <PackageReference Include="XFrame.Common" Version="7.0.6" />
+    <PackageReference Include="XFrame.Ids" Version="7.0.2" />
     <PackageReference Include="XFrame.Ioc" Version="7.0.0" />
   </ItemGroup>
 
